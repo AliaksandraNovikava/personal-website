@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #8795df;
+  color: #fff;
+  padding: 20px 25px 40px;
+}
+
+main {
+  padding: 30px 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 30px;
+  color: #4e64cb;
+}
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.greeting {
+  font-size: 20px;
+}
+
+.nav {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #acb8f5;
+  color: #fff;
+}
+.nav:hover {
+  background-color: #4e64cb;
+}
+
+.my_pic_figure {
+  margin-bottom: 30px;
+  /*color: #939393;*/
+}
+
+.my_pic {
+  width: 50%;
+  border-radius: 20px;
+}
+
+.fun_facts {
+  margin-bottom: 70px;
+}
+
+.likes ul,
+.dislikes ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+
+.likes ul li,
+.dislikes ul li {
+  float: left;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #8795df;
+  border-radius: 10px;
+  color: #8795df;
+}
+
+.box {
+  background-color: #8795df;
+  color: #fff;
+  padding: 50px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+.box h2 {
+  color: #fff;
+}
+.box a {
+  color: #fff;
+  font-weight: 600;
+}
+.box a:hover {
+  color: #4e64cb;
+}
+
+.contact-phone p::before {
+  content: "📱";
+  padding-right: 5px;
+}
+
+.contact-email p::before {
+  content: "✉️";
+  padding-right: 5px;
+}
+
+.icon {
+  width: 60px;
+  padding-top: 10px;
+}

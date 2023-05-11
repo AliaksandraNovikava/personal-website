@@ -4,32 +4,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>My personal website</title>
   </head>
   <body>
     <header>
-      <h1>Hi, I'm Aliaksandra Novikava.</h1>
+      <h1><span class="greeting">Hi, I'm </span><br>Aliaksandra Novikava.</h1>
       <nav>
-        <ul>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="#about-me">About me</a></li>
+        <a class="nav nav_contact" href="#contact">Contact</a><a class="nav nav_about_me" href="#about-me">About me</a>
         </ul>
       </nav>
     </header>
     <main>
-      <section id="fun-facts">
-        <figure>
-          <img src="/myimage.png" alt="Aliaksandra Novikava" />
-          <figcaption>This is me</figcaption>
+      <section class="fun_facts">
+        <figure class="my_pic_figure">
+          <img class="my_pic" src="https://ca.slack-edge.com/TTHG21AH3-U055QPLL7C5-0505111af281-512" alt="Aliaksandra Novikava" />
+          <figcaption>This is me &#x2b06;&#xfe0f;</figcaption>
         </figure>
         <h2>Fun facts</h2>
-        <div id="likes-dislikes">
+        <div class="likes">
           <h3>What I like:</h3>
           <ul>
             <li>Sea and Mountains</li>
             <li>Fruits</li>
             <li>Icecream</li>
           </ul>
+        </div>  
+        <div class="dislikes">
           <h3>What I don't like:</h3>
           <ul>
             <li>Bad weather</li>
@@ -38,26 +39,24 @@
           </ul>
         </div>
       </section>
-      <section id="contact">
+      <section class="contact box">
         <h2>Contact</h2>
-        <div><p>Phone: <a href="tel:123456789">123 456 789</a></p></div>
-        <div><p>Email: <a href="mailto:myemail@mail.com">myemail@mail.com</p></div>
+        <div class="contact-phone"><p>Phone: <a href="tel:123456789">123 456 789</a></p></div>
+        <div class="contact-email"><p>Email: <a href="mailto:myemail@mail.com">myemail@mail.com</p></div>
+            <div class="github">
+                <a href="https://github.com/AliaksandraNovikava" target="_blank"><img class="icon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="GitHub logo"></a>
+            </div>
+            <div class="codepan">
+                <a href="https://codesandbox.io/u/alex_nov" target="_blank"><img class="icon" src="https://cdn.iconscout.com/icon/free/png-512/free-codepen-283475.png?f=avif&w=512" alt="Codepen logo"></a>
+            </div>
       </section>
-      <section id="links">
-        <div id="github">
-            <a href="https://github.com/AliaksandraNovikava" target="_blank"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="GitHub logo"></a>
-        </div>
-        <div id="codepan">
-            <a href="https://codesandbox.io/u/alex_nov" target="_blank"><img src="https://cdn.iconscout.com/icon/free/png-512/free-codepen-283475.png?f=avif&w=512" alt="Codepen logo"></a>
-        </div>
-      </section>
-      <section id="about-me">
+      <section id="about_me">
         <div id="introduction">
             <h2>About me</h2>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
         </div>
         <div id="cv">
-            <div id="work-experience">
+            <div id="work_experience">
                 <h3>Work experience</h3>
                 <ul>
                     <li>Lorem ipsum</li>
