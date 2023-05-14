@@ -10,8 +10,10 @@
   <body>
     <header>
       <h1><span class="greeting">Hi, I'm </span><br>Aliaksandra Novikava.</h1>
-      <nav>
-        <a class="nav nav_contact" href="#contact">Contact</a><a class="nav nav_about_me" href="#about_me">About me</a>
+      <nav class="nav-container">
+        <ul class="nav-list">
+        <li><a class="nav" href="#contact">Contact</a></li>
+        <li><a class="nav" href="#about_me">About me</a></li>
         </ul>
       </nav>
     </header>
@@ -41,14 +43,17 @@
       </section>
       <section class="box" id="contact">
         <h2>Contact</h2>
-        <div class="contact-phone"><p>Phone: <a href="tel:123456789">123 456 789</a></p></div>
+        <div class="contact-phone">
+            <p>Phone: <a href="tel:123456789">123 456 789</a></p></div>
         <div class="contact-email"><p>Email: <a href="mailto:myemail@mail.com">myemail@mail.com</p></div>
+        <div class="links">
             <div class="github">
                 <a href="https://github.com/AliaksandraNovikava" target="_blank"><img class="icon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" alt="GitHub logo"></a>
             </div>
             <div class="codepan">
                 <a href="https://codesandbox.io/u/alex_nov" target="_blank"><img class="icon" src="https://cdn.iconscout.com/icon/free/png-512/free-codepen-283475.png?f=avif&w=512" alt="Codepen logo"></a>
             </div>
+        </div>
       </section>
       <section id="about_me">
         <div id="introduction">
@@ -79,6 +84,7 @@
             </div>
         </div>
       </section>
+      <a href="#top" class="to-top">&#8679;</a>
     </main>
     <footer>
        <ul>

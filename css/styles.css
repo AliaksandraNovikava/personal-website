@@ -22,11 +22,11 @@ a {
   text-decoration: none;
 }
 
-h1,
-h2 {
-  margin-bottom: 20px;
+h1 {
+  margin-right: 30px;
 }
 h2 {
+  margin-bottom: 20px;
   font-size: 30px;
   color: #4e64cb;
 }
@@ -35,8 +35,25 @@ h3 {
   font-weight: 400;
 }
 
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+}
+
 .greeting {
   font-size: 20px;
+}
+.nav-container {
+  padding-top: 20px;
+}
+
+.nav-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nav {
@@ -46,7 +63,8 @@ h3 {
   background-color: #acb8f5;
   color: #fff;
 }
-.nav:hover {
+.nav:hover,
+.to-top:hover {
   background-color: #4e64cb;
 }
 
@@ -111,4 +129,26 @@ h3 {
 .icon {
   width: 60px;
   padding-top: 10px;
+  margin-right: 20px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  width: 40px;
+  height: 40px;
+  border-radius: 30%;
+  border: 1px solid #fff;
+  background: #8795df;
+  color: white;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
